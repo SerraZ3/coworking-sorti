@@ -5,15 +5,21 @@ export const Container = styled.div`
   width: 100%;
   height: 29px;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
 `;
 
+export const LimitContainer = styled.div`
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  max-width: 1200px;
+`;
 export const Content = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  width: 170px;
-  padding: 0px 40px 0 0;
+  width: 150px;
+  padding: 0px 20px 0 0;
 `;
 
 export const Image = styled.img`
