@@ -1,19 +1,33 @@
 import React from "react";
 
-import { Container, Content, LeftContent, RightContent } from "./styles";
+//css
+import {
+  Paglinks,
+  Container,
+  Content,
+  Image,
+  LeftContent,
+  RightContent,
+  Title,
+} from "./styles";
+
+//assets
+import SotiIcon from "../../assets/images/sorti.svg";
 
 const Navbar: React.FC = () => {
   return (
     <Container>
       <Content>
         <LeftContent>
-          <h1>Coworking</h1>
+          <Image src={SotiIcon} alt={"sorti"} />
+          <Title>Coworking Sorti</Title>
         </LeftContent>
         <RightContent>
-          <p>home</p>
-          <p>home</p>
-          <p>home</p>
-          <p>home</p>
+          <Paglinks>Home</Paglinks>
+          <Paglinks>Planos</Paglinks>
+          <Paglinks>Estrutura</Paglinks>
+          <Paglinks>Blog</Paglinks>
+          <Paglinks>Contato</Paglinks>
         </RightContent>
       </Content>
     </Container>
