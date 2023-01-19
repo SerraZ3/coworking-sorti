@@ -19,3 +19,8 @@ export const Content = styled.div`
 export const Image = styled.img`
   width: 17px;
 `;
+
+export const Link = styled.a`
+  display: block;
+  margin: auto 0;
+`;
