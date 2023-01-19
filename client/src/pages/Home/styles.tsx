@@ -12,6 +12,7 @@ export const BannerContainer = styled.div`
   align-items: center;
   justify-content: space-between;
   padding: 0 40px;
+  margin-bottom: -300px;
 `;
 
 export const BannerLeftContent = styled.div`
@@ -84,20 +85,60 @@ export const OrangeBigCicle = styled.div`
   }
 `;
 
-export const OfferContainerTop = styled.div`
-  /* height: 500px;
-  width: 100%;
-  background: linear-gradient(193deg, white, white 60%, #68b6a6 60%, #68b6a6); */
+export const OfferContainer = styled.div`
+  height: 700px;
+`;
 
-  height: 600px;
+export const OfferContainerTop = styled.div`
+  height: 670px;
   width: 100%;
-  background: linear-gradient(194deg, white, white 60%, #68b6a6 38%, #68b6a6);
+  background: linear-gradient(
+    191deg,
+    #fffafa,
+    #fffafa 60%,
+    #68b6a6 38%,
+    #68b6a6
+  );
+`;
+
+export const TextContainer = styled.div`
+  position: absolute;
+  top: -150px;
+  max-width: 274px;
+`;
+
+export const OfferTitle = styled.p`
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 36px;
+  letter-spacing: -0.04em;
+  color: #ffffff;
+`;
+
+export const OfferText = styled.p`
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 35px;
+  letter-spacing: -0.04em;
+  color: #433b3b;
 `;
 
 export const OfferContainerBottom = styled.div`
-  height: 500px;
+  padding: 0 40px;
+  height: 517px;
   width: 100%;
-  background: linear-gradient(166deg, #68b6a6, #68b6a6 60%, white 60%, white);
+  background: linear-gradient(
+    170deg,
+    #68b6a6,
+    #68b6a6 60%,
+    #fffafa 60%,
+    #fffafa
+  );
+  position: relative;
 `;
 
 export const Div = styled.div`
