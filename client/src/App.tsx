@@ -1,3 +1,4 @@
+import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import SocialNetworkBar from "./components/SocialNetworkBar";
 import GlobalStyle from "./globalStyles";
@@ -11,6 +12,7 @@ function App() {
       <SocialNetworkBar />
       <Navbar />
       <Home />
+      <Footer />
     </div>
   );
 }

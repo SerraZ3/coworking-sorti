@@ -1,11 +1,12 @@
 import React from "react";
+import OffersCard from "../../components/OffersCard";
 
 import {
-  Div,
-  OfferContainer,
+  CardContainer,
   OfferContainerBottom,
   OfferContainerTop,
   OfferText,
+  OfferTextContrast,
   OfferTitle,
   TextContainer,
 } from "./styles";
@@ -13,16 +14,21 @@ import {
 const Offers: React.FC = () => {
   return (
     <>
-      {/* <OfferContainer> */}
       <OfferContainerTop></OfferContainerTop>
       <OfferContainerBottom>
         <TextContainer>
           <OfferTitle>Planos e preço</OfferTitle>
-          <OfferText>Conheça nossas opções e faça um teste gratis</OfferText>
+          <OfferText>
+            Conheça nossas opções e faça um
+            <OfferTextContrast> teste gratis</OfferTextContrast>
+          </OfferText>
         </TextContainer>
+        <CardContainer>
+          <OffersCard></OffersCard>
+          <OffersCard></OffersCard>
+          <OffersCard></OffersCard>
+        </CardContainer>
       </OfferContainerBottom>
-      {/* </OfferContainer> */}
-      <Div />
     </>
   );
 };

@@ -1,5 +1,9 @@
 import styled from "styled-components";
 
+export const Div = styled.div`
+  height: 900px;
+`;
+
 export const Container = styled.div`
   max-width: 1200px;
   margin: 0 auto;
@@ -85,10 +89,6 @@ export const OrangeBigCicle = styled.div`
   }
 `;
 
-export const OfferContainer = styled.div`
-  height: 700px;
-`;
-
 export const OfferContainerTop = styled.div`
   height: 670px;
   width: 100%;
@@ -103,15 +103,15 @@ export const OfferContainerTop = styled.div`
 
 export const TextContainer = styled.div`
   position: absolute;
-  top: -150px;
-  max-width: 274px;
+  top: -209px;
+  max-width: 276px;
 `;
 
 export const OfferTitle = styled.p`
   font-family: "Lato";
   font-style: normal;
   font-weight: 700;
-  font-size: 22px;
+  font-size: 20px;
   line-height: 36px;
   letter-spacing: -0.04em;
   color: #ffffff;
@@ -121,10 +121,29 @@ export const OfferText = styled.p`
   font-family: "Lato";
   font-style: normal;
   font-weight: 400;
-  font-size: 27px;
-  line-height: 35px;
-  letter-spacing: -0.04em;
+  font-size: 25px;
+  line-height: 26px;
   color: #433b3b;
+`;
+
+export const OfferTextContrast = styled.span`
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 26px;
+  color: #ffffff;
+`;
+
+export const CardContainer = styled.div`
+  position: absolute;
+  top: -69px;
+  /* max-width: 276px; */
+  width: 1000px;
+  max-width: 90vw;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
 `;
 
 export const OfferContainerBottom = styled.div`
@@ -141,6 +160,83 @@ export const OfferContainerBottom = styled.div`
   position: relative;
 `;
 
-export const Div = styled.div`
-  height: 900px;
+export const SliderContainer = styled.div`
+  height: 450px;
+`;
+
+export const FormContainer = styled.div`
+  height: 450px;
+  background: #68b6a6;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+`;
+
+export const IframeContaner = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+`;
+export const FormContent = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+`;
+
+export const ContactBannerContainer = styled.div`
+  height: 247px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+`;
+
+export const LeftContacts = styled.div`
+  display: flex;
+  width: 500px;
+  /* max-width: 50%; */
+  flex-wrap: wrap;
+`;
+
+export const ContactsTitle = styled.p`
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: right;
+  color: #433b3b;
+`;
+
+export const ContactLink = styled.a`
+  font-weight: 600;
+  font-size: 20px;
+  color: #433b3b;
+  padding: 10px 20px;
+  width: 250px;
+`;
+
+export const ContactIcon = styled.img`
+  font-size: 15px;
+`;
+
+export const RightSortiLogo = styled.div`
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`;
+
+export const LogoIcon = styled.img`
+  border-radius: 50%;
+  padding: 0 10px 0 0;
+  height: 60px;
+`;
+
+export const LogoText = styled.p`
+  /* padding: 10px; */
+  font-weight: 600;
+  font-size: 24px;
+  color: #000000;
 `;
