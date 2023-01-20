@@ -21,7 +21,7 @@ const Offers: React.FC = () => {
   return (
     <>
       <OfferContainerTop />
-      <OfferContainerCenter>
+      <OfferContainerCenter id="planos">
         <Container>
           <TextContainer>
             <OfferTitle>Planos e preço</OfferTitle>

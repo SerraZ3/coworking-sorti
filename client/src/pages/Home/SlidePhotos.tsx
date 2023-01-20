@@ -19,7 +19,7 @@ import Slide3 from "../../assets/images/slide3.jpg";
 
 const SlidePhotos: React.FC = () => {
   return (
-    <Container>
+    <Container id="estrutura">
       <RightText>
         <SlideTextContainer>
           <SlideTitle>Nosso espaço</SlideTitle>

@@ -260,6 +260,7 @@ export const ContactLink = styled.a`
   padding: 9px 15px;
   width: 250px;
   text-decoration: none;
+  display: flex;
 `;
 
 export const ContactIcon = styled.img`
@@ -275,7 +276,6 @@ export const RightSortiLogo = styled.div`
 `;
 
 export const LogoIcon = styled.img`
-  border-radius: 50%;
   padding: 0 10px 0 0;
   height: 60px;
 `;

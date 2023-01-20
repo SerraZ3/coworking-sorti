@@ -20,25 +20,26 @@ import Sorti from "../../assets/images/sorti.svg";
 
 const ContactBanner: React.FC = () => {
   return (
-    <Container>
+    <Container id="contato">
       <ContactBannerContainer>
         <LeftContacts>
           <ContactsTitle>Contatos</ContactsTitle>
           <LinksContacts>
-            <ContactLink>
+            {/* <ContactLink>
               <ContactIcon src={Email} /> Email@gmail.com
-            </ContactLink>
-            <ContactLink>
+            </ContactLink> */}
+            {/* <ContactLink>
               <ContactIcon src={WhatsApp} /> (73) 99999-9999
-            </ContactLink>
+            </ContactLink> */}
             <ContactLink
               href={"https://www.instagram.com/clinicasorti"}
               target={"_blank"}
             >
-              <ContactIcon src={Instagram} /> @clinicasorti
+              <ContactIcon src={Instagram} alt="Instagram" />
+              <span> @clinicasorti </span>
             </ContactLink>
-            <ContactLink>
-              <ContactIcon src={Cellphone} /> (73) 3333-3333
+            <ContactLink href="tel:+557332111648" target={"_blank"}>
+              <ContactIcon src={Cellphone} alt="Telefone" /> (73) 3211-1648
             </ContactLink>
           </LinksContacts>
         </LeftContacts>

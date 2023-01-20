@@ -18,7 +18,8 @@ export const Content = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  width: 150px;
+  /* width: 150px; */
+  width: 100px;
   padding: 0px 20px 0 0;
 `;
 

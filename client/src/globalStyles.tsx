@@ -7,6 +7,13 @@ const GlobalStyle = createGlobalStyle`
     width: 100vw;
     overflow-x: hidden;
   }
+  html,
+  body {
+    scroll-behavior: smooth;
+  }
+  a {
+    text-decoration: none;
+  }
   *{
     margin: 0;
     padding: 0;
