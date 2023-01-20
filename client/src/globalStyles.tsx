@@ -5,6 +5,7 @@ const GlobalStyle = createGlobalStyle`
     font-family: 'Lato', sans-serif;
     background-color: #FFFAFA;
     width: 100vw;
+    overflow-x: hidden;
   }
   *{
     margin: 0;

@@ -9,13 +9,15 @@ import { Container, Div } from "./styles";
 
 const Home: React.FC = () => {
   return (
-    <Container>
+    // <Container>
+    <>
       <Banner />
       <Offers />
       <SlidePhotos />
       <ContactForm />
       <ContactBanner />
-    </Container>
+    </>
+    // </Container>
   );
 };
 

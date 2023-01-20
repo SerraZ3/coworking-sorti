@@ -3,7 +3,9 @@ import OffersCard from "../../components/OffersCard";
 
 import {
   CardContainer,
+  Container,
   OfferContainerBottom,
+  OfferContainerCenter,
   OfferContainerTop,
   OfferText,
   OfferTextContrast,
@@ -14,22 +16,42 @@ import {
 const Offers: React.FC = () => {
   return (
     <>
-      <OfferContainerTop></OfferContainerTop>
-      <OfferContainerBottom>
-        <TextContainer>
-          <OfferTitle>Planos e preço</OfferTitle>
-          <OfferText>
-            Conheça nossas opções e faça um
-            <OfferTextContrast> teste gratis</OfferTextContrast>
-          </OfferText>
-        </TextContainer>
-        <CardContainer>
-          <OffersCard></OffersCard>
-          <OffersCard></OffersCard>
-          <OffersCard></OffersCard>
-        </CardContainer>
-      </OfferContainerBottom>
+      <OfferContainerTop />
+      <OfferContainerCenter>
+        <Container>
+          <TextContainer>
+            <OfferTitle>Planos e preço</OfferTitle>
+            <OfferText>
+              Conheça nossas opções e faça um
+              <OfferTextContrast> teste gratis</OfferTextContrast>
+            </OfferText>
+          </TextContainer>
+          <CardContainer>
+            <OffersCard></OffersCard>
+            <OffersCard></OffersCard>
+            <OffersCard></OffersCard>
+          </CardContainer>
+        </Container>
+      </OfferContainerCenter>
+      <OfferContainerBottom />
     </>
+    // <Container>
+    //   {/* <OfferContainerTop></OfferContainerTop>
+    //   <OfferContainerBottom>
+    //     <TextContainer>
+    //       <OfferTitle>Planos e preço</OfferTitle>
+    //       <OfferText>
+    //         Conheça nossas opções e faça um
+    //         <OfferTextContrast> teste gratis</OfferTextContrast>
+    //       </OfferText>
+    //     </TextContainer>
+    //     <CardContainer>
+    //       <OffersCard></OffersCard>
+    //       <OffersCard></OffersCard>
+    //       <OffersCard></OffersCard>
+    //     </CardContainer>
+    //   </OfferContainerBottom> */}
+    // </Container>
   );
 };
 

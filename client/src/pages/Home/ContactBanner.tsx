@@ -4,7 +4,9 @@ import {
   ContactIcon,
   ContactLink,
   ContactsTitle,
+  Container,
   LeftContacts,
+  LinksContacts,
   LogoIcon,
   LogoText,
   RightSortiLogo,
@@ -18,27 +20,34 @@ import Sorti from "../../assets/images/sorti.svg";
 
 const ContactBanner: React.FC = () => {
   return (
-    <ContactBannerContainer>
-      <LeftContacts>
-        {/* <ContactsTitle>Contatos</ContactsTitle> */}
-        <ContactLink>
-          <ContactIcon src={Email} /> Email@gmail.com
-        </ContactLink>
-        <ContactLink>
-          <ContactIcon src={WhatsApp} /> (73) 99999-9999
-        </ContactLink>
-        <ContactLink>
-          <ContactIcon src={Instagram} /> @clinicasorti
-        </ContactLink>
-        <ContactLink>
-          <ContactIcon src={Cellphone} /> (73) 3333-3333
-        </ContactLink>
-      </LeftContacts>
-      <RightSortiLogo>
-        <LogoIcon src={Sorti} alt={"Sorti"} />
-        <LogoText>Coworking Sorti</LogoText>
-      </RightSortiLogo>
-    </ContactBannerContainer>
+    <Container>
+      <ContactBannerContainer>
+        <LeftContacts>
+          <ContactsTitle>Contatos</ContactsTitle>
+          <LinksContacts>
+            <ContactLink>
+              <ContactIcon src={Email} /> Email@gmail.com
+            </ContactLink>
+            <ContactLink>
+              <ContactIcon src={WhatsApp} /> (73) 99999-9999
+            </ContactLink>
+            <ContactLink
+              href={"https://www.instagram.com/clinicasorti"}
+              target={"_blank"}
+            >
+              <ContactIcon src={Instagram} /> @clinicasorti
+            </ContactLink>
+            <ContactLink>
+              <ContactIcon src={Cellphone} /> (73) 3333-3333
+            </ContactLink>
+          </LinksContacts>
+        </LeftContacts>
+        <RightSortiLogo>
+          <LogoIcon src={Sorti} alt={"Sorti"} />
+          <LogoText>Coworking Sorti</LogoText>
+        </RightSortiLogo>
+      </ContactBannerContainer>
+    </Container>
   );
 };
 
