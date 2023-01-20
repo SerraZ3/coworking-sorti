@@ -2,6 +2,7 @@ import React from "react";
 import {
   Container,
   Div,
+  RightText,
   SlideContrast,
   SliderContainer,
   SlideText,
@@ -19,12 +20,15 @@ import Slide3 from "../../assets/images/slide3.jpg";
 const SlidePhotos: React.FC = () => {
   return (
     <Container>
-      <SlideTextContainer>
-        <SlideTitle>Nosso espaço</SlideTitle>
-        <SlideText>
-          Entre em contato e <SlideContrast> marque uma visita!</SlideContrast>
-        </SlideText>
-      </SlideTextContainer>
+      <RightText>
+        <SlideTextContainer>
+          <SlideTitle>Nosso espaço</SlideTitle>
+          <SlideText>
+            Entre em contato e{" "}
+            <SlideContrast> marque uma visita!</SlideContrast>
+          </SlideText>
+        </SlideTextContainer>
+      </RightText>
       <SliderContainer>
         <Slide slidesToScroll={2} slidesToShow={3} indicators={true}>
           <img src={Slide1} alt="foto da sala" />

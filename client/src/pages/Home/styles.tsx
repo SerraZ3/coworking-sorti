@@ -156,7 +156,17 @@ export const OfferContainerBottom = styled.div`
   position: relative; */
 `;
 
-export const SlideTextContainer = styled.div``;
+export const RightText = styled.div`
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+`;
+export const SlideTextContainer = styled.div`
+  max-width: 276px;
+  margin-left: 50px;
+  text-align: right;
+  padding: 0 0 50px 0;
+`;
 
 export const SlideTitle = styled.p`
   font-weight: 700;
