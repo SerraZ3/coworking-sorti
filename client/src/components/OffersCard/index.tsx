@@ -6,17 +6,20 @@ import { Container, Image, TextContent, Title, TopContent } from "./styles";
 //assets
 import Sala1 from "../../assets/images/sala1.jpg";
 
-const OffersCard: React.FC = () => {
+interface IOffersCard {
+  title: string;
+  text: string;
+  image: any;
+}
+
+const OffersCard: React.FC<IOffersCard> = ({ title, text, image }) => {
   return (
     <Container>
       <TopContent>
-        <Image src={Sala1} alt="sala1" />
+        <Image src={image} alt={title} />
       </TopContent>
-      <Title> Espaços compartilhados</Title>
-      <TextContent>
-        Pensado para profissionais autônomos, freelancers e pequenas empresas,
-        são os planos mais acessíveis do Coworking Sorti
-      </TextContent>
+      <Title> {title}</Title>
+      <TextContent>{text}</TextContent>
     </Container>
   );
 };

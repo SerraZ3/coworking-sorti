@@ -204,7 +204,8 @@ export const InsideFormContainer = styled.div`
   padding: 0 20px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  /* justify-content: space-between; mudado para mapa full */
   padding: 0 30px;
 `;
 
@@ -212,7 +213,8 @@ export const IframeContaner = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 500px;
+  width: 800px;
+  /* width: 500px; mudado para deixar o mapa full */
 `;
 export const FormContent = styled.div`
   display: flex;
