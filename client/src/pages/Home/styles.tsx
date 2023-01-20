@@ -93,7 +93,7 @@ export const OfferContainerTop = styled.div`
   height: 670px;
   width: 100%;
   background: linear-gradient(
-    191deg,
+    187deg,
     #fffafa,
     #fffafa 60%,
     #68b6a6 38%,
@@ -148,10 +148,10 @@ export const CardContainer = styled.div`
 
 export const OfferContainerBottom = styled.div`
   padding: 0 40px;
-  height: 517px;
+  height: 719px;
   width: 100%;
   background: linear-gradient(
-    170deg,
+    172deg,
     #68b6a6,
     #68b6a6 60%,
     #fffafa 60%,
@@ -211,14 +211,14 @@ export const ContactsTitle = styled.p`
 
 export const ContactLink = styled.a`
   font-weight: 600;
-  font-size: 20px;
+  font-size: 17px;
   color: #433b3b;
-  padding: 10px 20px;
+  padding: 9px 15px;
   width: 250px;
 `;
 
 export const ContactIcon = styled.img`
-  font-size: 15px;
+  font-size: 10px;
 `;
 
 export const RightSortiLogo = styled.div`

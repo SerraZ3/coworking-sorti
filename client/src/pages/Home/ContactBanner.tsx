@@ -35,7 +35,6 @@ const ContactBanner: React.FC = () => {
         </ContactLink>
       </LeftContacts>
       <RightSortiLogo>
-        {/* <h1>ContactBanner</h1> */}
         <LogoIcon src={Sorti} alt={"Sorti"} />
         <LogoText>Coworking Sorti</LogoText>
       </RightSortiLogo>
