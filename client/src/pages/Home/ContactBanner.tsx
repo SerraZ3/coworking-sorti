@@ -25,14 +25,8 @@ const ContactBanner: React.FC = () => {
         <LeftContacts>
           <ContactsTitle>Contatos</ContactsTitle>
           <LinksContacts>
-            {/* <ContactLink>
+            <ContactLink>
               <ContactIcon src={Email} /> Email@gmail.com
-<<<<<<< HEAD
-            </ContactLink> */}
-            {/* <ContactLink>
-              <ContactIcon src={WhatsApp} /> (73) 99999-9999
-            </ContactLink> */}
-=======
             </ContactLink>
             <ContactLink
               href={
@@ -41,23 +35,14 @@ const ContactBanner: React.FC = () => {
             >
               <ContactIcon src={WhatsApp} /> (73) 98118-8718
             </ContactLink>
->>>>>>> d6eeae5 (started responsive)
             <ContactLink
               href={"https://www.instagram.com/clinicasorti"}
               target={"_blank"}
             >
-<<<<<<< HEAD
-              <ContactIcon src={Instagram} alt="Instagram" />
-              <span> @clinicasorti </span>
-            </ContactLink>
-            <ContactLink href="tel:+557332111648" target={"_blank"}>
-              <ContactIcon src={Cellphone} alt="Telefone" /> (73) 3211-1648
-=======
               <ContactIcon src={Instagram} /> @sorticoworking
             </ContactLink>
             <ContactLink>
               <ContactIcon src={Cellphone} /> (73) 3211-1648
->>>>>>> d6eeae5 (started responsive)
             </ContactLink>
           </LinksContacts>
         </LeftContacts>
