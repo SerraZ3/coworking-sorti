@@ -23,7 +23,10 @@ export const BannerLeftContent = styled.div`
   height: 336px;
   left: 61px;
   /* border: 1px solid black; */
-  max-width: 500px;
+  max-width: 405px;
+  @media (min-width: "1000px") {
+    max-width: 500px;
+  }
 `;
 
 export const BannerTitle = styled.p`
@@ -40,10 +43,12 @@ export const BannerRedTitle = styled.span`
 `;
 
 export const BannerRightContent = styled.div`
-  /* height: 336px;
-  left: 61px; */
   position: relative;
   width: 500px;
+  display: none;
+  @media (min-width: 992px) {
+    display: block;
+  }
 `;
 
 export const SmallCircle = styled.div`
@@ -90,6 +95,7 @@ export const OrangeBigCicle = styled.div`
 `;
 
 export const OfferContainerTop = styled.div`
+  margin-bottom: -3px;
   height: 250px;
   width: 100%;
   background: linear-gradient(
@@ -102,7 +108,8 @@ export const OfferContainerTop = styled.div`
 `;
 
 export const OfferContainerCenter = styled.div`
-  height: 500px;
+  min-height: 500px;
+  height: auto;
   background-color: #68b6a6;
 `;
 
@@ -139,9 +146,12 @@ export const CardContainer = styled.div`
   display: flex;
   justify-content: space-around;
   margin: 0 auto;
+  flex-wrap: wrap;
+  gap: 25px 0;
 `;
 
 export const OfferContainerBottom = styled.div`
+  margin-top: -3px;
   padding: 0 40px;
   height: 250px;
   width: 100%;
@@ -214,6 +224,7 @@ export const IframeContaner = styled.div`
   justify-content: center;
   align-items: center;
   width: 800px;
+  max-width: 80vw;
   /* width: 500px; mudado para deixar o mapa full */
 `;
 export const FormContent = styled.div`

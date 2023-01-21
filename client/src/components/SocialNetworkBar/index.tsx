@@ -4,7 +4,7 @@ import React from "react";
 import { Container, Content, LimitContainer, Image, Link } from "./styles";
 
 //assets
-import FaceIcon from "../../assets/images/facebookIcon.svg";
+import faceIcon from "../../assets/images/facebookIcon.svg";
 import instagramIcon from "../../assets/images/instagramIcon.svg";
 import linkedinIcon from "../../assets/images/linkedinIcon.svg";
 import whatsappIcon from "../../assets/images/whatsappIcon.svg";
@@ -15,12 +15,12 @@ const SocialNetworkBar: React.FC = () => {
     <Container>
       <LimitContainer>
         <Content>
-          {/* <Link>
-            <Image src={FaceIcon} alt="Facebook" />
+          <Link>
+            <Image src={faceIcon} alt="Facebook" />
           </Link>
           <Link>
             <Image src={whatsappIcon} alt="WhatsApp" />
-          </Link> */}
+          </Link>
           {/* <Link>
             <Image src={linkedinIcon} alt="Linkedin" />
           </Link> */}
