@@ -20,11 +20,12 @@ export const Content = styled.div`
   justify-content: space-around;
   /* width: 150px; */
   width: 100px;
-  padding: 0px 20px 0 0;
+  padding: 0px 56px 0 0;
 `;
 
 export const Image = styled.img`
-  width: 17px;
+  padding: 0px 5px;
+  font-size: 1px;
 `;
 
 export const Link = styled.a`

@@ -235,25 +235,36 @@ export const FormContent = styled.div`
 `;
 
 export const ContactBannerContainer = styled.div`
-  height: 247px;
+  min-height: 247px;
+  height: auto;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   padding: 0 20px;
+  flex-wrap: wrap;
+  @media (min-width: 576px) {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+  /* flex-wrap: wrap; */
 `;
 
-export const LeftContacts = styled.div`
-  /* display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  width: 500px; */
-`;
+export const LeftContacts = styled.div``;
 
 export const LinksContacts = styled.div`
   display: flex;
-  width: 500px;
+  /* width: 300px; */
   /* max-width: 50%; */
   flex-wrap: wrap;
+  @media (min-width: 576px) {
+    width: 280px;
+  }
+  @media (min-width: 768px) {
+    width: 400px;
+  }
+  @media (min-width: 920px) {
+    width: 500px;
+  }
 `;
 export const ContactsTitle = styled.p`
   padding: 15px;
@@ -280,10 +291,11 @@ export const ContactIcon = styled.img`
 `;
 
 export const RightSortiLogo = styled.div`
-  width: 400px;
+  width: 390px;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 30px 0;
 `;
 
 export const LogoIcon = styled.img`
