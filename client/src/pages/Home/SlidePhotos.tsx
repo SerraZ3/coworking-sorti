@@ -24,16 +24,15 @@ const SlidePhotos: React.FC = () => {
         <SlideTextContainer>
           <SlideTitle>Nosso espaço</SlideTitle>
           <SlideText>
-            Entre em contato e{" "}
-            <SlideContrast> marque uma visita!</SlideContrast>
+            Entre em contato e<SlideContrast> marque uma visita!</SlideContrast>
           </SlideText>
         </SlideTextContainer>
       </RightText>
       <SliderContainer>
         <Slide slidesToScroll={2} slidesToShow={3} indicators={true}>
-          <img src={Slide1} alt="foto da sala" />
-          <img src={Slide2} alt="foto da sala" />
-          <img src={Slide3} alt="foto da sala" />
+          <img src={Slide1} alt="foto da sala 1" />
+          <img src={Slide2} alt="foto da sala 2" />
+          <img src={Slide3} alt="foto do mapa" />
         </Slide>
       </SliderContainer>
     </Container>

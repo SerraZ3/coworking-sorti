@@ -26,7 +26,7 @@ const ContactBanner: React.FC = () => {
           <ContactsTitle>Contatos</ContactsTitle>
           <LinksContacts>
             {/* <ContactLink>
-              <ContactIcon src={Email} /> Email@gmail.com
+              <ContactIcon src={Email} alt={"Email"}/> Email@gmail.com
             </ContactLink> */}
             <ContactLink
               href={
@@ -34,16 +34,16 @@ const ContactBanner: React.FC = () => {
               }
               target={"_blank"}
             >
-              <ContactIcon src={WhatsApp} /> (73) 98118-8718
+              <ContactIcon src={WhatsApp} alt={"WhatsApp"} /> (73) 98118-8718
             </ContactLink>
             <ContactLink
               href={"https://www.instagram.com/sorticoworking/"}
               target={"_blank"}
             >
-              <ContactIcon src={Instagram} /> @sorticoworking
+              <ContactIcon src={Instagram} alt={"Instagram"} /> @sorticoworking
             </ContactLink>
             <ContactLink href="tel:+557332111648" target={"_blank"}>
-              <ContactIcon src={Cellphone} /> (73) 3211-1648
+              <ContactIcon src={Cellphone} alt={"Cellphone"} /> (73) 3211-1648
             </ContactLink>
           </LinksContacts>
         </LeftContacts>

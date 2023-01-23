@@ -9,7 +9,6 @@ import { Container, Div } from "./styles";
 
 const Home: React.FC = () => {
   return (
-    // <Container>
     <>
       <Banner />
       <Offers />
@@ -17,7 +16,6 @@ const Home: React.FC = () => {
       <ContactForm />
       <ContactBanner />
     </>
-    // </Container>
   );
 };
 
