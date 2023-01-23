@@ -27,7 +27,8 @@ export const Content = styled.div`
 
 export const Image = styled.img`
   padding: 0px 5px;
-  font-size: 1px;
+  /* font-size: 1px; */
+  height: 15px;
 `;
 
 export const Link = styled.a`

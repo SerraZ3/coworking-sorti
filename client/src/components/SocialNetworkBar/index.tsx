@@ -18,14 +18,19 @@ const SocialNetworkBar: React.FC = () => {
           <Link>
             <Image src={faceIcon} alt="Facebook" />
           </Link>
-          <Link>
+          <Link
+            href={
+              "https://wa.me/5573981188718?text=Ol%C3%A1%2C+quero+fazer+parte+do+Sorti+Coworking%21"
+            }
+            target={"_blank"}
+          >
             <Image src={whatsappIcon} alt="WhatsApp" />
           </Link>
           {/* <Link>
             <Image src={linkedinIcon} alt="Linkedin" />
           </Link> */}
           <Link
-            href={"https://www.instagram.com/clinicasorti"}
+            href={"https://www.instagram.com/sorticoworking/"}
             target={"_blank"}
           >
             <Image src={instagramIcon} alt="Instagram" />

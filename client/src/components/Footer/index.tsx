@@ -6,7 +6,7 @@ const Footer: React.FC = () => {
   return (
     <Container>
       <Content>
-        <CopyText>©2023 Coworking Sorti</CopyText>
+        <CopyText>&#169;2023 Sorti Coworking</CopyText>
       </Content>
     </Container>
   );

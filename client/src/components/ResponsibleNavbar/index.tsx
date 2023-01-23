@@ -32,7 +32,7 @@ const ResponsibleNavbar: React.FC = () => {
           <Content>
             <LeftContent>
               <Image src={SotiIcon} alt={"sorti"} />
-              <Title>Coworking Sorti</Title>
+              <Title>Sorti Coworking</Title>
             </LeftContent>
             <MenuIcon onClick={showSiderbar} />
           </Content>
@@ -40,11 +40,19 @@ const ResponsibleNavbar: React.FC = () => {
       </Container>
       <LinksContent transform={translate}>
         <LimiterContainer>
-          <Paglinks href="#home">Home</Paglinks>
-          <Paglinks href="#planos">Planos</Paglinks>
-          <Paglinks href="#estrutura">Estrutura</Paglinks>
+          <Paglinks href="#home" onClick={showSiderbar}>
+            Home
+          </Paglinks>
+          <Paglinks href="#planos" onClick={showSiderbar}>
+            Planos
+          </Paglinks>
+          <Paglinks href="#estrutura" onClick={showSiderbar}>
+            Estrutura
+          </Paglinks>
           {/* <Paglinks href="#Home">Blog</Paglinks> */}
-          <Paglinks href="#contato">Contato</Paglinks>
+          <Paglinks href="#contato" onClick={showSiderbar}>
+            Contato
+          </Paglinks>
         </LimiterContainer>
       </LinksContent>
     </>

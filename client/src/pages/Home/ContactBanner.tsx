@@ -25,18 +25,19 @@ const ContactBanner: React.FC = () => {
         <LeftContacts>
           <ContactsTitle>Contatos</ContactsTitle>
           <LinksContacts>
-            <ContactLink>
+            {/* <ContactLink>
               <ContactIcon src={Email} /> Email@gmail.com
-            </ContactLink>
+            </ContactLink> */}
             <ContactLink
               href={
-                "https://wa.me/5573981188718?text=Ol%C3%A1%2C+quero+fazer+parte+do+Coworking+Sorti%21"
+                "https://wa.me/5573981188718?text=Ol%C3%A1%2C+quero+fazer+parte+do+Sorti+Coworking%21"
               }
+              target={"_blank"}
             >
               <ContactIcon src={WhatsApp} /> (73) 98118-8718
             </ContactLink>
             <ContactLink
-              href={"https://www.instagram.com/clinicasorti"}
+              href={"https://www.instagram.com/sorticoworking/"}
               target={"_blank"}
             >
               <ContactIcon src={Instagram} /> @sorticoworking
@@ -48,7 +49,7 @@ const ContactBanner: React.FC = () => {
         </LeftContacts>
         <RightSortiLogo>
           <LogoIcon src={Sorti} alt={"Sorti"} />
-          <LogoText>Coworking Sorti</LogoText>
+          <LogoText>Sorti Coworking</LogoText>
         </RightSortiLogo>
       </ContactBannerContainer>
     </Container>

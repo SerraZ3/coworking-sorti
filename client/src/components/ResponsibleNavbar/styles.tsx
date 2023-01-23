@@ -11,6 +11,8 @@ export const Container = styled.div`
   position: fixed;
   z-index: 100;
   top: 28px;
+  border-bottom: 1px solid #00000017;
+
   @media (min-width: 576px) {
     display: none;
   }
@@ -25,6 +27,7 @@ export const LimiterContainer = styled.div`
 export const Content = styled.div`
   display: flex;
   justify-content: space-between;
+
   /* width: 100%;
   max-width: 1200px;
   padding: 0 20px; */
