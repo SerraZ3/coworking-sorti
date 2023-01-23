@@ -1,3 +1,4 @@
+import React from "react";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import ResponsibleNavbar from "./components/ResponsibleNavbar";
@@ -9,7 +10,6 @@ function App() {
   return (
     <div>
       <GlobalStyle />
-
       <SocialNetworkBar />
       <Navbar />
       <ResponsibleNavbar />

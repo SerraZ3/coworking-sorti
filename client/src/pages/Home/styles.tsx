@@ -212,10 +212,32 @@ export const SliderContainer = styled.div`
   height: 450px;
 `;
 
+export const SlideImage = styled.img`
+  height: 276px;
+  width: 370px;
+`;
+
 export const FormContainer = styled.div`
   width: 100%;
   /* height: 450px; */
   background: #68b6a6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`;
+
+export const MapTitle = styled.h3`
+  font-weight: 700;
+  font-size: 28px;
+  color: #ffffff;
+  padding-top: 40px;
+  margin-bottom: -30px;
+  @media (min-width: 768px) {
+    font-size: 35px;
+  }
+  @media (min-width: 576px) {
+    font-size: 45px;
+  }
 `;
 
 export const InsideFormContainer = styled.div`
