@@ -15,9 +15,9 @@ const SocialNetworkBar: React.FC = () => {
     <Container>
       <LimitContainer>
         <Content>
-          <Link>
+          {/* <Link>
             <Image src={faceIcon} alt="Facebook" />
-          </Link>
+          </Link> */}
           <Link
             href={
               "https://wa.me/5573981188718?text=Ol%C3%A1%2C+quero+fazer+parte+do+Sorti+Coworking%21"
