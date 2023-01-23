@@ -23,11 +23,19 @@ const Navbar: React.FC = () => {
           <Title>Coworking Sorti</Title>
         </LeftContent>
         <RightContent>
+<<<<<<< HEAD
           <Paglinks>Home</Paglinks>
           <Paglinks>Planos</Paglinks>
           <Paglinks>Estrutura</Paglinks>
           <Paglinks>Blog</Paglinks>
           <Paglinks>Contato</Paglinks>
+=======
+          <Paglinks href="#home">Home</Paglinks>
+          <Paglinks href="#planos">Planos</Paglinks>
+          <Paglinks href="#estrutura">Estrutura</Paglinks>
+          {/* <Paglinks href="#Home">Blog</Paglinks> */}
+          <Paglinks href="#contato">Contato</Paglinks>
+>>>>>>> dev
         </RightContent>
       </Content>
     </Container>

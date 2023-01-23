@@ -6,6 +6,8 @@ export const Container = styled.div`
   height: 29px;
   display: flex;
   justify-content: center;
+  position: fixed;
+  z-index: 100;
 `;
 
 export const LimitContainer = styled.div`
@@ -18,12 +20,15 @@ export const Content = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  width: 150px;
-  padding: 0px 20px 0 0;
+  /* width: 150px; */
+  width: 100px;
+  padding: 0px 56px 0 0;
 `;
 
 export const Image = styled.img`
-  width: 17px;
+  padding: 0px 5px;
+  /* font-size: 1px; */
+  height: 15px;
 `;
 
 export const Link = styled.a`
