@@ -7,6 +7,14 @@ export const Container = styled.div`
   justify-content: center;
   width: 100%;
   border-bottom: 1px solid #00000028;
+  background-color: #ffffff;
+  position: fixed;
+  z-index: 100;
+  top: 29px;
+  display: none;
+  @media (min-width: 576px) {
+    display: block;
+  }
 `;
 
 export const Content = styled.div`
@@ -14,7 +22,8 @@ export const Content = styled.div`
   justify-content: space-between;
   width: 100%;
   max-width: 1200px;
-  padding: 0 20px;
+  padding: 0 30px;
+  margin: 0 auto;
 `;
 
 export const LeftContent = styled.div`

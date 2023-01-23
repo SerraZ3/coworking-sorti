@@ -17,7 +17,10 @@ export const Content = styled.div`
 
 export const CopyText = styled.p`
   font-weight: 700;
-  font-size: 20px;
+  font-size: 15px;
   color: #433b3b;
   margin: auto;
+  @media (min-width: 576px) {
+    font-size: 20px;
+  }
 `;

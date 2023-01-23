@@ -17,6 +17,9 @@ export const BannerContainer = styled.div`
   justify-content: space-between;
   padding: 0 40px;
   /* margin-bottom: -300px; */
+  @media (min-width: 576px) {
+    height: 600px;
+  }
 `;
 
 export const BannerLeftContent = styled.div`
@@ -31,10 +34,14 @@ export const BannerLeftContent = styled.div`
 
 export const BannerTitle = styled.p`
   font-weight: 500;
-  font-size: 56px;
-  line-height: 70px;
-  letter-spacing: -0.04em;
+  font-size: 43px;
+  line-height: 48px;
+  /* letter-spacing: -0.04em; */
   color: #433b3b;
+  @media (min-width: 576px) {
+    font-size: 56px;
+    line-height: 70px;
+  }
 `;
 
 export const BannerRedTitle = styled.span`
@@ -95,6 +102,7 @@ export const OrangeBigCicle = styled.div`
 `;
 
 export const OfferContainerTop = styled.div`
+  margin-top: -150px;
   margin-bottom: -3px;
   height: 250px;
   width: 100%;
@@ -105,6 +113,9 @@ export const OfferContainerTop = styled.div`
     #68b6a6 51%,
     #68b6a6
   );
+  @media (min-width: 576px) {
+    margin-top: 0;
+  }
 `;
 
 export const OfferContainerCenter = styled.div`
@@ -249,7 +260,16 @@ export const ContactBannerContainer = styled.div`
   /* flex-wrap: wrap; */
 `;
 
-export const LeftContacts = styled.div``;
+export const LeftContacts = styled.div`
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  /* justify-content: center; */
+  @media (min-width: 576px) {
+    align-items: flex-start;
+  }
+`;
 
 export const LinksContacts = styled.div`
   display: flex;
@@ -279,10 +299,14 @@ export const ContactLink = styled.a`
   font-weight: 600;
   font-size: 17px;
   color: #433b3b;
-  padding: 9px 15px;
-  width: 250px;
+  padding: 9px 0px;
+  width: 220px;
   text-decoration: none;
   display: flex;
+  @media (min-width: 576px) {
+    width: 250px;
+    padding: 9px 15px;
+  }
 `;
 
 export const ContactIcon = styled.img`

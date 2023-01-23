@@ -6,6 +6,8 @@ export const Container = styled.div`
   height: 29px;
   display: flex;
   justify-content: center;
+  position: fixed;
+  z-index: 100;
 `;
 
 export const LimitContainer = styled.div`

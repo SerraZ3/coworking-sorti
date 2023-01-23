@@ -41,7 +41,7 @@ const ContactBanner: React.FC = () => {
             >
               <ContactIcon src={Instagram} /> @sorticoworking
             </ContactLink>
-            <ContactLink>
+            <ContactLink href="tel:+557332111648" target={"_blank"}>
               <ContactIcon src={Cellphone} /> (73) 3211-1648
             </ContactLink>
           </LinksContacts>
