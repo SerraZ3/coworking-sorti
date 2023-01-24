@@ -57,8 +57,48 @@ export const BannerRightContent = styled.div`
     display: block;
   }
 `;
-
 export const SmallCircle = styled.div`
+  /* width: 353px;
+  height: 358px; */
+  background: #44c9ae;
+  border-radius: 50%;
+  position: absolute;
+  top: -166px;
+  left: 162px;
+  @media (min-width: 800px) {
+    height: 151px;
+    width: 150px;
+  }
+`;
+
+export const FirstImage = styled.img`
+  position: absolute;
+  top: -140px;
+  left: 209px;
+  z-index: 1;
+  height: 143px;
+  width: 203px;
+`;
+
+export const SecondImage = styled.img`
+  position: absolute;
+  top: -2px;
+  left: 122px;
+  z-index: 1;
+  height: 134px;
+  width: 190px;
+`;
+
+export const ThirdImage = styled.img`
+  position: absolute;
+  top: -6px;
+  left: 326px;
+  z-index: 1;
+  height: 137px;
+  width: 194px;
+`;
+
+export const BigCircle = styled.div`
   width: 274px;
   height: 286px;
   background: #44c9ae;
@@ -70,20 +110,6 @@ export const SmallCircle = styled.div`
   @media (min-width: 800px) {
     height: 230px;
     width: 230px;
-  }
-`;
-
-export const BigCircle = styled.div`
-  width: 353px;
-  height: 358px;
-  background: #44c9ae;
-  border-radius: 50%;
-  position: absolute;
-  top: -166px;
-  left: 162px;
-  @media (min-width: 800px) {
-    height: 151px;
-    width: 150px;
   }
 `;
 
