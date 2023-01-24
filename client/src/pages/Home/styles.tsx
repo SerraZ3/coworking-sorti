@@ -75,7 +75,7 @@ export const FirstImage = styled.img`
   position: absolute;
   top: -140px;
   left: 209px;
-  z-index: 1;
+  z-index: 2;
   height: 143px;
   width: 203px;
 `;
